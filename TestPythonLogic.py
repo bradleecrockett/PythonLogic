@@ -39,10 +39,10 @@ class TestPythonLogic(TestCase):
         self.assertEqual(alarm_clock(0, False), "10:00")
 
     def test_alarm_clock_vacayend(self):
-        self.assertEqual(alarm_clock(6, False), "off")
+        self.assertEqual(alarm_clock(6, True), "off")
 
     def test_alarm_clock_vacayday(self):
-        self.assertEqual(alarm_clock(3, False), "off")
+        self.assertEqual(alarm_clock(3, True), "10:00")
 
 
     ########## Love Six Tests ################
