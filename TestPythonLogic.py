@@ -3,6 +3,7 @@ from PythonLogic import round_sum
 from PythonLogic import alarm_clock
 from PythonLogic import love_six
 from PythonLogic import round10
+from PythonLogic import lone_sum
 
 class TestPythonLogic(TestCase):
     ########## Round Sum Tests ################
