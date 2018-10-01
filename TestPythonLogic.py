@@ -65,17 +65,17 @@ class TestPythonLogic(TestCase):
 
 
     ########## Lone Sum Tests ################
-    def lone_sum_none(self):
+    def test_lone_sum_none(self):
         self.assertEqual(lone_sum(3, 3, 3), 0)
 
-    def lone_sum_all(self):
+    def test_lone_sum_all(self):
         self.assertEqual(lone_sum(1, 2, 3), 6)
 
-    def lon_sum_2nd(self):
+    def test_lone_sum_2nd(self):
         self.assertEqual(lone_sum(3, 2, 3), 2)
 
-    def lon_sum_last(self):
+    def test_lone_sum_last(self):
         self.assertEqual(lone_sum(5, 5, 3), 3)
 
-    def lon_sum_neg(self):
+    def test_lone_sum_neg(self):
         self.assertEqual(lone_sum(-5, 12, 8), 15)
