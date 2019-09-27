@@ -13,19 +13,19 @@
 # Given two int values, a and b, return True if either one is 6.
 # Or if their sum or difference is 6.
 # Note: the function abs(num) computes the absolute value of a number.
-def love_six(a: int, b: int):
+def love_six(a, b)
     '''Your code below here'''
 
     return 0
 
 
-# Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and a
+# Given a day of the week encoded as 0=Sun, 1=Mon, 2=Tue, ...6=Sat, and is_on_vacation a
 # boolean indicating if we are on vacation, return a string of the form "7:00"
 # indicating when the alarm clock should ring. Weekdays, the alarm should
 # be "7:00" and on the weekend it should be "10:00".
 # Unless we are on vacation -- then on weekdays it should be "10:00" and
 # weekends it should be "off"
-def alarm_clock(day: int, vacation: bool):
+def alarm_clock(day, is_on_vacation):
     '''Your code below here'''
 
     return 0
@@ -36,11 +36,16 @@ def alarm_clock(day: int, vacation: bool):
 # round down to the previous multiple of 10 if its rightmost digit is less
 # than 5, so 12 rounds down to 10. Given 3 ints, a b c, return the sum of
 # their rounded values.
-#
 # To avoid code repetition, write a separate helper "def round10(num):"
 # and call it 3 times. Write the helper entirely below and at the same
 # indent level as round_sum().
-def round_sum(a: int, b: int, c: int):
+def round10():
+    '''Your code below here'''
+
+    return 0
+
+
+def round_sum(a, b, c):
     '''Your code below here'''
 
     return 0
@@ -54,7 +59,9 @@ def lone_sum(a: int, b:int, c: int):
     return 0
 
 
-# def main():
-#     '''Write some testing / debugging code here comment it out before submitting'''
-#
-# main()
+def main():
+    '''Write some testing / debugging code here comment it out before submitting'''
+
+
+
+main()
