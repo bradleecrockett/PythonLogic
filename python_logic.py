@@ -1,7 +1,7 @@
 # Name: First Last
 # Date:
 # Period:
-# Lab: PythonLogic.py
+# Lab: python_logic.py
 # Description: Write the 4 functions described below in comments
 #
 #     Style - Code format, whitespace and PEP-8 style is followed making code easy to read.
@@ -13,7 +13,7 @@
 # Given two int values, a and b, return True if either one is 6.
 # Or if their sum or difference is 6.
 # Note: the function abs(num) computes the absolute value of a number.
-def love_six(a, b)
+def love_six(a, b):
     '''Your code below here'''
 
     return 0
@@ -61,6 +61,7 @@ def lone_sum(a: int, b:int, c: int):
 
 def main():
     '''Write some testing / debugging code here comment it out before submitting'''
+    print("Love six of 1 and 5 should be True. Actual result: ", love_six(1, 5))
 
 
 
